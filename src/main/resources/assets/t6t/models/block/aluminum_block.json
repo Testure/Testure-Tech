@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "t6t:blocks/aluminum_block"
+  }
+}

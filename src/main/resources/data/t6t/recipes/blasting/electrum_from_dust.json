@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/electrum"
+  },
+  "result": "t6t:electrum_ingot",
+  "cookingtime": 200
+}

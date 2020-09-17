@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "nmc"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:dusts/iron"
+    },
+    "n": {
+      "tag": "forge:dusts/nickel"
+    },
+    "m": {
+      "tag": "forge:dusts/manganese"
+    },
+    "c": {
+      "tag": "forge:dusts/chrome"
+    }
+  },
+  "result": {
+    "item": "t6t:stainless_steel_dust",
+    "count": 3
+  }
+}

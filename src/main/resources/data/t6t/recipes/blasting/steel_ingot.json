@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": "t6t:steel_ingot",
+  "cookingtime": 1600
+}

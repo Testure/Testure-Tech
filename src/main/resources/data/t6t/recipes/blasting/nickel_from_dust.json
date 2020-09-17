@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/nickel"
+  },
+  "result": "t6t:nickel_ingot",
+  "cookingtime": 200
+}

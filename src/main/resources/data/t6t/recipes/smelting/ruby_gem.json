@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:ores/ruby"
+  },
+  "result": "t6t:ruby_gem",
+  "cookingtime": 200
+}

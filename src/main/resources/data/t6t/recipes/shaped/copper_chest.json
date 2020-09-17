@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cCc",
+    "ccc"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "c": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "t6t:copper_chest"
+  }
+}

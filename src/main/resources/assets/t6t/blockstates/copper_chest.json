@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "t6t:block/copper_chest" },
+    "facing=south": { "model": "t6t:block/copper_chest", "y": 180 },
+    "facing=west": { "model": "t6t:block/copper_chest", "y": 270 },
+    "facing=east": { "model": "t6t:block/copper_chest", "y": 90 }
+  }
+}

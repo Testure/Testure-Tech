@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "BcB",
+    "bbb"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:chests/wooden"
+    },
+    "b": {
+      "tag": "forge:plates/bronze"
+    },
+    "B": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "result": {
+    "item": "t6t:bronze_chest"
+  }
+}

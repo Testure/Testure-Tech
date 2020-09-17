@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " z ",
+    " z "
+  ],
+  "key": {
+    "z": {
+      "tag": "forge:ingots/zinc"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:zinc_plate"
+  }
+}

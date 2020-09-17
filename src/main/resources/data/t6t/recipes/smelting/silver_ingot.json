@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:ores/silver"
+  },
+  "result": "t6t:silver_ingot",
+  "cookingtime": 100
+}

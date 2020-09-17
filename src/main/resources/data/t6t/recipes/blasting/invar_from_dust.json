@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/invar"
+  },
+  "result": "t6t:invar_ingot",
+  "cookingtime": 200
+}

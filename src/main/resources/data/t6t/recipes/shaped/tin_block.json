@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "t6t:tin_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rrr",
+    "rrr"
+  ],
+  "key": {
+    "r": {
+      "tag": "forge:gems/ruby"
+    }
+  },
+  "result": {
+    "item": "t6t:ruby_block"
+  }
+}

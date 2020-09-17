@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " m ",
+    " m "
+  ],
+  "key": {
+    "m": {
+      "tag": "forge:ingots/manganese"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:manganese_plate"
+  }
+}

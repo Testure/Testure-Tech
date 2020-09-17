@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " l ",
+    " l "
+  ],
+  "key": {
+    "l": {
+      "tag": "forge:ingots/lead"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:lead_plate"
+  }
+}

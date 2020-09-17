@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/copper"
+  },
+  "result": "t6t:copper_ingot",
+  "cookingtime": 200
+}

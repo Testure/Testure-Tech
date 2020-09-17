@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/lead"
+  },
+  "result": "t6t:lead_ingot",
+  "cookingtime": 200
+}

@@ -1,0 +1,44 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+#issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="t6t" #mandatory
+version="1.0.0.0" #mandatory
+displayName="Testure's Tech" #mandatory
+#updateJSONURL="http://myurl.me/" #optionalI
+#displayURL="http://example.com/" #optional
+#logoFile="examplemod.png" #optional
+#credits="" #optional
+authors="Testure6" #optional
+description='''
+
+'''
+[[dependencies.t6t]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+[[dependencies.t6t]]
+    modId="t6c"
+    mandatory=true
+    versionRange="[1,)"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.t6t]]
+    modId="jei"
+    mandatory=false
+    versionRange="[6,)"
+    ordering="BEFORE"
+    side="CLIENT"
+[[dependencies.t6t]]
+    modId="theoneprobe"
+    mandatory=false
+    versionRange="[2,)"
+    ordering="BEFORE"
+    side="CLIENT"

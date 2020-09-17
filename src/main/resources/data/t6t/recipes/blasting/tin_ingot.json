@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ores/tin"
+  },
+  "result": "t6t:tin_ingot",
+  "cookingtime": 100
+}

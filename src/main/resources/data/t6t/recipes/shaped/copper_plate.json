@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:ingots/copper"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:copper_plate"
+  }
+}

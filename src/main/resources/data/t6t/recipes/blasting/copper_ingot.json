@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ores/copper"
+  },
+  "result": "t6t:copper_ingot",
+  "cookingtime": 100
+}

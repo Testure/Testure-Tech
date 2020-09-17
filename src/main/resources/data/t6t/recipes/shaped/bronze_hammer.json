@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bb ",
+    "bbs",
+    "bb "
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:ingots/bronze"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "t6t:bronze_hammer"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ores/aluminum"
+  },
+  "result": "t6t:aluminum_dust",
+  "cookingtime": 100
+}

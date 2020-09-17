@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " e ",
+    " e "
+  ],
+  "key": {
+    "e": {
+      "tag": "forge:ingots/electrum"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:electrum_plate"
+  }
+}

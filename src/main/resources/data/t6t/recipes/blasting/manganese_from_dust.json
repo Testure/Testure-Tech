@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/manganese"
+  },
+  "result": "t6t:manganese_ingot",
+  "cookingtime": 200
+}

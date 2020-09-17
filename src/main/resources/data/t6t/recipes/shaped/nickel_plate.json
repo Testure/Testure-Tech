@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " n ",
+    " n "
+  ],
+  "key": {
+    "n": {
+      "tag": "forge:ingots/nickel"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:nickel_plate"
+  }
+}

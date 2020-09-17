@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " a ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/aluminum"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:aluminum_plate"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " t ",
+    " t "
+  ],
+  "key": {
+    "t": {
+      "tag": "forge:ingots/tin"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:tin_plate"
+  }
+}

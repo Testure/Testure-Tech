@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:ingots/brass"
+    },
+    "h": {
+      "tag": "t6t:hammer"
+    }
+  },
+  "result": {
+    "item": "t6t:brass_plate"
+  }
+}

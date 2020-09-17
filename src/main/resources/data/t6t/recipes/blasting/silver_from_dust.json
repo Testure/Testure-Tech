@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:dusts/silver"
+  },
+  "result": "t6t:silver_ingot",
+  "cookingtime": 200
+}
