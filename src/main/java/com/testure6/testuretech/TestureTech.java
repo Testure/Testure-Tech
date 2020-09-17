@@ -39,10 +39,10 @@ public class TestureTech {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         MaterialItems.addItem("stainless_steel", MaterialType.ALLOY, "FeCrMnNi");
-        MaterialItems.addItem("ruby", MaterialType.GEM, "CrAlO");
+        MaterialItems.addItem("ruby", MaterialType.GEM, "CrAlO", OreFeatureConfig.FillerBlockType.NATURAL_STONE, 9, 20, 40);
         MaterialItems.addItem("brass", MaterialType.ALLOY, "CuZn");
         MaterialItems.addItem("aluminum", MaterialType.METAL, "Al");
-        MaterialItems.addItem("copper", MaterialType.METAL, "Cu");
+        MaterialItems.addItem("copper", MaterialType.METAL, "Cu", OreFeatureConfig.FillerBlockType.NATURAL_STONE, 25, 20, 75);
         MaterialItems.addItem("tin", MaterialType.METAL, "Sn");
         MaterialItems.addItem("zinc", MaterialType.METAL, "Zn");
         MaterialItems.addItem("steel", MaterialType.ALLOY, "Fe");
@@ -85,13 +85,12 @@ public class TestureTech {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        OreGen.addOre("overworld", BlockInit.Copper_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 25, 20, 5, 5, 80, 0);
-        OreGen.addOre("overworld", BlockInit.Tin_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 28, 20, 5, 5, 85, 1);
-        OreGen.addOre("overworld", BlockInit.Ruby_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 9, 20, 5, 5, 40, 2);
-        OreGen.addOre("overworld", BlockInit.Silver_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 11, 20, 5, 5, 50, 3);
-        OreGen.addOre("overworld", BlockInit.Lead_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 10, 20, 5, 5, 45, 4);
-        OreGen.addOre("overworld", BlockInit.Zinc_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 9, 20, 5, 5, 35, 5);
-        OreGen.addOre("overworld", BlockInit.Aluminum_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 12, 20, 5, 5, 38, 6);
+        BlockInit.genOres();
+        //OreGen.addOre("overworld", BlockInit.Tin_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 28, 20, 5, 5, 85, 1);
+        //OreGen.addOre("overworld", BlockInit.Silver_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 11, 20, 5, 5, 50, 3);
+        //OreGen.addOre("overworld", BlockInit.Lead_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 10, 20, 5, 5, 45, 4);
+        //OreGen.addOre("overworld", BlockInit.Zinc_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 9, 20, 5, 5, 35, 5);
+        //OreGen.addOre("overworld", BlockInit.Aluminum_Ore.get().getDefaultState(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, 12, 20, 5, 5, 38, 6);
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
